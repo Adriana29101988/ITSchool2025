@@ -1,4 +1,4 @@
-package session12_OOP_3.Homework;
+package session_12_OOP_3.Homework;
 
 //Create an abstract class 'Marks'
 abstract class Marks {
@@ -9,7 +9,7 @@ abstract class Marks {
 //  It is inherited by two other classes 'A' and 'B' each having a method with the same name which returns the percentage of the students.
     // creez doua subclase A si B care mostenesc clasa Marks) la care fiecare subclase au o metoda care returneaza procentajul stundentilor
 
-     class MarksA extends session12_OOP_3.Homework.TestMarks {
+     class MarksA extends session_12_OOP_3.Homework.TestMarks {
         int subject1, subject2, subject3;
 
         // Constructorul clasei MarksA care primește notele celor 3 materii
@@ -28,7 +28,7 @@ abstract class Marks {
             System.out.println("Procentajul studentului A este: " + percentage + "%");
         }
     }
-     class MarksB extends session12_OOP_3.Homework.TestMarks {
+     class MarksB extends session_12_OOP_3.Homework.TestMarks {
 
         int subject1, subject2, subject3, subject4;
 

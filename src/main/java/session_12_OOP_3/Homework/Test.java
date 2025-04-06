@@ -1,4 +1,4 @@
-package session12_OOP_3.Homework;
+package session_12_OOP_3.Homework;
 
 // clasa abstracta Parent
 abstract class Parent {

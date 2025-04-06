@@ -1,4 +1,4 @@
-package session12_OOP_3.Homework;
+package session_12_OOP_3.Homework;
 
 // An abstract class has a constructor which prints "This is constructor of abstract class", an abstract method named 'a_method' and a non-abstract method which prints "This is a normal method of abstract class".
 // creez o clasa abstracta si dupa un constructor
