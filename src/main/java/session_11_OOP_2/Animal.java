@@ -7,6 +7,10 @@ public class Animal {
         this.name = name;
     }
 
+    public Animal() {
+
+    }
+
     //Getter
     public String getName(){
         return name;
@@ -22,7 +26,7 @@ public class Animal {
     }
 }
 
-class Dog extends Animal{
+  class Dog extends Animal{
     private String race;
 
     public Dog(String name, String race){
@@ -30,7 +34,11 @@ class Dog extends Animal{
         this.race = race;
     }
 
-    public String getRace(){
+       public Dog() {
+           super();
+       }
+
+       public String getRace(){
         return race;
     }
 
