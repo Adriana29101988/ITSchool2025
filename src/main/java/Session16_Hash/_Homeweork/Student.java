@@ -34,9 +34,9 @@ public class Student {
 }
 // clasa main pentru printare
 
-class StudentTest{
-    public static void main(String [] args){
-        Student s1 = new Student("Alina", 61,"alinapopeste@gmail.com");
+class StudentTest {
+    public static void main(String[] args) {
+        Student s1 = new Student("Alina", 61, "alinapopeste@gmail.com");
         Student s2 = new Student("Marco", 44, "marcoantonio@gamil.com");
 
         System.out.println("s1.equals(s2)" + s1.equals(s2));
@@ -45,3 +45,4 @@ class StudentTest{
         System.out.println("Hash codes are equals?" + (s1.hashCode() == s2.hashCode()));
     }
 }
+

@@ -38,8 +38,8 @@ public class Product {
 }
 // clasa main pentru printare
 
-class ProductTest{
-    public static void main(String [] args){
+class ProductTest {
+    public static void main(String[] args) {
 
         Product p1 = new Product("laptop", 11.22, "K1");
         Product p2 = new Product("handy", 36.22, "K1");
@@ -57,3 +57,4 @@ class ProductTest{
         System.out.println("HashCode p2: " + p2.hashCode());
     }
 }
+

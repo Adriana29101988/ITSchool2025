@@ -26,8 +26,8 @@ public class Person {
 }
 
 // clasa main pentru printare
-class PersonTest{
-    public static void main(String [] args){
+class PersonTest {
+    public static void main(String[] args) {
         Person p1 = new Person("Adriana", 36, "adrianamm88@gmail.com");
         Person p2 = new Person("Emilia", 44, "emiliapopescu@gmail.com");
 

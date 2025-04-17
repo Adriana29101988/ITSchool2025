@@ -32,10 +32,10 @@ public class Song {
 }
 // clasa main pentru printare
 
-class SongTest{
-    public static void main(String[] args){
-        Song s1 =  new Song("la vie e belle", "Andreea Bocelli", 165);
-        Song s2 =  new Song("Amore", "Pavarotti", 220);
+class SongTest {
+    public static void main(String[] args) {
+        Song s1 = new Song("la vie e belle", "Andreea Bocelli", 165);
+        Song s2 = new Song("Amore", "Pavarotti", 220);
 
         System.out.println("s1.equals(s2)" + s1.equals(s2));
         System.out.println("Hashcode.s1" + s1.hashCode());
@@ -43,3 +43,5 @@ class SongTest{
         System.out.println("Hash codes are equals?" + (s1.hashCode() == s2.hashCode()));
     }
 }
+
+
