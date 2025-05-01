@@ -1,4 +1,4 @@
-package Session16_Hash._Homeweork;
+package Session_16_Hash._Homeweork;
 
 import java.util.Objects;
 

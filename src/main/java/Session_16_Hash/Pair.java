@@ -1,4 +1,4 @@
-package Session16_Hash;
+package Session_16_Hash;
 
 public class Pair<K,V>{
     private K key;
